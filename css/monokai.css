@@ -17,8 +17,6 @@
       -o-tab-size: 2;
          tab-size: 2;
     text-shadow: none;
-    white-space: pre;
-    white-space: pre-wrap;
     word-wrap: normal;
 }
 
@@ -26,6 +24,8 @@
     width: 100%;
     padding: 20px;
     overflow-x: auto;
+    white-space: pre;
+    white-space: pre-wrap;
 }
 
 .highlighter-rouge > pre > code {
