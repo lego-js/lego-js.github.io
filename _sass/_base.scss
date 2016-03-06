@@ -49,23 +49,6 @@ a {
     }
 }
 
-pre {
-    font-family: 'Cultive Mono', monospace;
-    width: 100%;
-    padding: 20px;
-    background: $jet;
-    overflow-x: auto;
-}
-
-h1, h2, h3, h4, h5, h6, p, li {
-
-    code {
-        padding: 5px;
-        margin: 2px;
-        background: $jet;
-    }
-}
-
 .container {
     padding: 20px;
     height: 100vh;

@@ -1,9 +1,9 @@
-.highlighter-rouge .highlight {
+.highlighter-rouge {
     background: #2a2a2a;
     border: 1px solid #e1e1e8;
     border-radius: 4px;
     color: #f8f8f2;
-    font-family: Menlo, Monaco, "Courier New", monospace;
+    font-family: 'Cultive Mono', monospace; /*Menlo, Monaco, "Courier New", monospace;*/
     font-size: 14px;
     -webkit-hyphens: none;
        -moz-hyphens: none;
@@ -22,9 +22,20 @@
     word-wrap: normal;
 }
 
-.highlighter-rouge .highlight code {
+.highlighter-rouge > pre {
+    width: 100%;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.highlighter-rouge > pre > code {
     white-space: pre;
     display: block;
+}
+
+code.highlighter-rouge {
+    padding: 5px;
+    margin: 2px;
 }
 
 .highlighter-rouge .hll { background-color: #49483e }
