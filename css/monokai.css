@@ -22,8 +22,9 @@
 
 .highlighter-rouge > pre {
     width: 100%;
-    padding: 20px;
+    margin: 0;
     overflow-x: auto;
+    padding: 0;
     white-space: pre;
     white-space: pre-wrap;
 }
